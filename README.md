@@ -23,11 +23,14 @@ mkdir no-cra-react
   └ index.html
 ```
 
+## React
+
 ```sh
-# react 설정
 yarn init
 yarn add react react-dom
 ```
+
+## Typescript
 
 ```sh
 # typescript 및 타입 파일
@@ -39,6 +42,8 @@ tsc --init
 
 - `tsconfig.json`
 
+## Babel
+
 ```sh
 # babel 설정
 yarn add -D babel-loader @babel/core @babel/preset-env @babel/preset-react @babel/preset-typescript
@@ -47,6 +52,8 @@ yarn add -D babel-loader @babel/core @babel/preset-env @babel/preset-react @babe
 ### 파일 작성
 
 - `babel.config.js`
+
+## Webpack
 
 ```sh
 # webpack 설정
